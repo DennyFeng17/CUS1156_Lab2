@@ -1,3 +1,10 @@
+/*Project: Lab2
+ * Class: UniqueWords.java
+ * Author:Denny Feng
+ * February 28th, 2021
+ * Finished method that counts number of unique words in an arraylist; to be uploaded to github
+ *
+ */
 import java.util.ArrayList;
 
 public class UniqueWords
@@ -12,9 +19,9 @@ public class UniqueWords
 	  int count = 0;
 	  
       for (int i = 0; i < list.size(); i++)
-      {		 for (int j = 0; j < list.size(); j++)
+      {	for (int j = 0; j < list.size(); j++)
 		 {if(i==j)
-			 count+=1;
+		count+=1;
    	  if(list.get(i)==list.get(j))
 		 {break;}
 
